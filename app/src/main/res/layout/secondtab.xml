@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_red_light"
+        xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <TextView
+        android:id="@+id/place_head"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Overview"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/place_desc"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/place_head"
+            android:layout_marginTop="50dp"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+</RelativeLayout>
+</ScrollView>

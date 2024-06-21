@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/butt"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".india">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layout_top">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/j"
+            />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:background="@drawable/ghum"
+                android:id="@+id/titlebarleftmenu"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="7dp"
+                android:text="Ghumo Phiro"
+                android:textColor="@android:color/black"
+                android:textSize="35sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/titlebarrightmenu"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ghum"
+
+                />
+
+
+
+        </FrameLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/j"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    </FrameLayout>
+
+</LinearLayout>

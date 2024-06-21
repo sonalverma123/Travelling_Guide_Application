@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".ShowDataActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/profile_refresh">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:cardElevation="8dp" android:layout_marginBottom="4dp"
+        app:cardCornerRadius="8dp" android:layout_marginTop="60dp"
+        android:layout_marginRight="16dp" android:layout_marginLeft="16dp"
+        app:cardBackgroundColor="@android:color/white">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/profile_name"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:text="Name"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:cardElevation="8dp"
+        android:layout_marginBottom="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardBackgroundColor="@android:color/white"/>
+
+
+    <android.support.v7.widget.CardView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:cardElevation="8dp"
+        android:layout_marginBottom="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardBackgroundColor="@android:color/white">
+
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:text="About"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="12sp" />
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginRight="16dp" android:layout_marginLeft="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:text="Dob:"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="16sp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/profile_city"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:text="Hyderabad"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+    <View
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:text="Phone:"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/profile_state"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:text="Telangana"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+</LinearLayout>
+
+    <View
+        android:background="@android:color/holo_blue_dark"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:text="Email:"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="16sp" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/profile_country"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:text="India"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@android:color/holo_purple"
+        android:layout_margin="8dp">
+
+    <Button
+        android:background="?attr/selectableItemBackground"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/reset_pass"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="12dp"
+        android:text="Change Password"
+        android:paddingLeft="12dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/pencil_white"
+        android:drawablePadding="4dp"
+        android:drawableLeft="@drawable/pencil_white"
+        android:textAllCaps="false"/>
+
+</android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark"
+        android:layout_margin="8dp">
+
+    <Button
+        android:background="?attr/selectableItemBackground"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/logout"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:padding="4dp"/>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
